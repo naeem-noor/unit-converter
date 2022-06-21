@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+position: absolute;
+width: 550px;
+height: 550px;
+left: 700px;
+top: 83px;
+background: #1F2937;
+}
+.main {
+position: absolute;
+width: 550px;
+height: 260px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+.main h1 {
+position: absolute;
+width: 448.4px;
+height: 38px;
+left: 51px;
+top: 53px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 38px;
+/* identical to box height, or 173% */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+
+/* input {
+position: absolute;
+width: 200px;
+height: 38px;
+left: 165px;
+top: 160px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 38px;
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #000;
+} */
+
+/* number to convert */
+.main #number-to-convert {
+position: absolute;
+width: 211px;
+height: 51.23px;
+left: 169px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 97.5723px;
+line-height: 24px;
+/* or 25% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Supporting text */
+.supporting-text h1 {
+position: absolute;
+width: 346px;
+height: 25px;
+left: 102px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+/* or 143% */
+text-align: center;
+color: #FFFFFF;
+}
+
+.supporting-text p {
+position: absolute;
+width: 346px;
+height: 25px;
+left: 102px;
+margin-top: 5px;
+/* margin-bottom: 27px; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+text-align: center;
+color: #D2D2D2;
+}
